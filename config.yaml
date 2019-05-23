@@ -1,0 +1,5 @@
+options:
+  snap_name:
+    type: string
+    default: "ubuntu-charm"
+    description: "Name of the charm on the charmstore"

@@ -1,0 +1,22 @@
+name: charm-ubuntu-rust
+summary: <Fill in summary here>
+maintainer: chris <chris@leda>
+description: |
+  <Multi-line description here>
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - misc
+subordinate: false
+series:
+  - trusty
+  - xenial
+  - bionic
+  - cosmic
+  - disco
+
+resources:
+  charm-snap:
+    type: file
+    filename: charm.snap
+    description: charm snap
